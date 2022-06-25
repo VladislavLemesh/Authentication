@@ -1,0 +1,6 @@
+{% for row in table %}
+  <p>{{ row.id }} {{ row.title }} {{ row.category }}</p>
+{% endfor %}
+<form method="POST" action="/?action=logout" >
+    <button type="submit">Выйти</button>
+</form>
